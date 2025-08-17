@@ -1,3 +1,3 @@
 # k8s-user-service
 
-github actions demo
+github actions demo with gitOps
