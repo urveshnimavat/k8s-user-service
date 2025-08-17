@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 const app = express();
 const PORT = process.env.PORT || 4000;
-const SERVICE_A_URL = process.env.SERVICE_A_URL || "http://localhost:3000";
+const SERVICE_A_URL = process.env.SERVICE_A_URL || "http://profile-service:3000";
 
 app.get("/", async (req, res) => {
   try {
